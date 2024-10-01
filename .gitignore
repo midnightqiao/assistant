@@ -1,0 +1,8 @@
+build-*
+build
+assistant/.vs
+assistant/assistant
+assistant/build
+assistant/x64
+assistant/opencv_world490.dll
+assistant/opencv_world490d.dll

@@ -1,0 +1,88 @@
+﻿  Generate moc_predefs.h
+  inputmessage.cpp
+  main.cpp
+  widget.cpp
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\ysp\Desktop\assistant\assistant\inputmessage.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“inputmessage.cpp”)
+  
+C:\Users\ysp\Desktop\assistant\assistant\widget.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“main.cpp”)
+  
+C:\Users\ysp\Desktop\assistant\assistant\widget.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“widget.cpp”)
+  
+C:\Users\ysp\Desktop\assistant\assistant\inputmessage.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“widget.cpp”)
+  
+C:\Users\ysp\Desktop\assistant\assistant\inputmessage.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“main.cpp”)
+  
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(48,38): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(49,9): error C2143: 语法错误: 缺少“)”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(48,22): error C2661: “QMessageBox::warning”: 没有重载函数接受 2 个参数
+  C:\Users\ysp\Desktop\assistant\assistant\main.cpp(48,22):
+  尝试匹配参数列表“(nullptr, const char [46])”时
+  
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(49,9): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(51,15): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\main.cpp(52,5): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(144,47): warning C4100: “arg1”: 未引用的形参
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(188,24): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(189,5): error C2146: 语法错误: 缺少“)”(在标识符“QSqlQuery”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(189,5): error C2146: 语法错误: 缺少“;”(在标识符“QSqlQuery”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(198,24): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(199,5): error C2143: 语法错误: 缺少“)”(在“}”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(199,5): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,49): error C3872: “0x2018”: 此字符不允许在标识符中使用
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,49): error C3872: “0xe511”: 此字符不允许在标识符中使用
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,49): error C3872: “0xe1bc”: 此字符不允许在标识符中使用
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,49): error C3688: 文本后缀“浣犵‘瀹氬垹闄ゅ綋鍓嶈鐨勬暟鎹悧锛”无效；未找到文文本运算符或文本运算符模板“operator """"浣犵‘瀹氬垹闄ゅ綋鍓嶈鐨勬暟鎹悧锛”
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,27): error C2665: “QMessageBox::warning”: 没有重载函数可以转换所有参数类型
+  C:\Qt\Qt5.12.9\5.12.9\msvc2017_64\include\QtWidgets\qmessagebox.h(191,27):
+  可能是“QMessageBox::StandardButton QMessageBox::warning(QWidget *,const QString &,const QString &,QMessageBox::StandardButtons,QMessageBox::StandardButton)”
+  	C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,27):
+  	“QMessageBox::StandardButton QMessageBox::warning(QWidget *,const QString &,const QString &,QMessageBox::StandardButtons,QMessageBox::StandardButton)”: 无法将参数 2 从“QMessageBox::StandardButton”转换为“const QString &”
+  		C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,146):
+  		原因如下: 无法从“QMessageBox::StandardButton”转换为“const QString”
+  		C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,146):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(246,27):
+  尝试匹配参数列表“(QTableView *, QMessageBox::StandardButton, QMessageBox::StandardButton)”时
+  
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(332,23): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(334,30): error C2059: 语法错误:“;”
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(342,5): error C3927: "->": 非函数声明符后不允许尾随返回类型
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(342,12): error C3613: “->”后缺少返回类型(假定为“int”)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(342,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(342,12): error C2146: 语法错误: 缺少“;”(在标识符“setFilter”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(343,5): error C3927: "->": 非函数声明符后不允许尾随返回类型
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(343,12): error C3613: “->”后缺少返回类型(假定为“int”)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(343,18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(343,5): error C2086: “int model”: 重定义
+  C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(342,5):
+  参见“model”的声明
+  
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(343,12): error C2146: 语法错误: 缺少“;”(在标识符“select”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(345,1): error C2059: 语法错误:“}”
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(345,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(349,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(349,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(376,60): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(377,9): error C2143: 语法错误: 缺少“)”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(377,9): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(391,64): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(392,13): error C2143: 语法错误: 缺少“)”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(392,13): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(413,60): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(414,9): error C2143: 语法错误: 缺少“)”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(414,9): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(436,64): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(437,13): error C2143: 语法错误: 缺少“)”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(437,13): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(487,19): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(489,9): error C2143: 语法错误: 缺少“;”(在“return”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(519,38): error C2001: 常量中有换行符
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(520,1): error C2143: 语法错误: 缺少“)”(在“}”的前面)
+C:\Users\ysp\Desktop\assistant\assistant\widget.cpp(520,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
